@@ -1,16 +1,18 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:velocity_x/velocity_x.dart';
+
 import 'package:flutter_catalog/core/store.dart';
 import 'package:flutter_catalog/models/cart.dart';
 import 'package:flutter_catalog/utilites/routes.dart';
-import 'package:velocity_x/velocity_x.dart';
+
 import '../models/catalog.dart';
 import '../widgets/home_widgets/catalog_header.dart';
 import '../widgets/home_widgets/catalog_list.dart';
-import 'package:http/http.dart' as http;
 
 class Homepage extends StatefulWidget {
   @override
@@ -44,7 +46,7 @@ class _HomepageState extends State<Homepage> {
     return Scaffold(
         backgroundColor: context.canvasColor,
         floatingActionButton: VxBuilder(
-          mutations: {AddMutation, RemoveMutation},
+          mutations: const {AddMutation, RemoveMutation},
           builder: (context, store, status) => FloatingActionButton(
             onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
             backgroundColor: context.theme.primaryColor,
@@ -56,7 +58,7 @@ class _HomepageState extends State<Homepage> {
               color: Vx.black,
               size: 22,
               count: _cart.items.length,
-              textStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+              textStyle: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
         ),
         body: SafeArea(
           child: Container(
