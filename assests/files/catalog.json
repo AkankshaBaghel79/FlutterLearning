@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+            "language": "Hindi",
+            "name": "India",
+            "desc": "India is a vast and diverse country with a rich cultural heritage, vibrant traditions, and a rapidly developing economy.",
+            "currency":"Indian Rupee",
+            "price": 999,
+            "image": "https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Mandrain",
+            "name": "china",
+            "desc": "China has a deep spiritual and cultural history with many sacred sites and traditions revered by its people, making it a land of great cultural significance and spiritual importance.",
+            "currency":"Chinese yuan",
+            "price": 901,
+            "image": "https://images.pexels.com/photos/2870587/pexels-photo-2870587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Thai",
+            "name": "Thailand",
+            "desc": "Popular tourist destination, offering visitors a unique blend of modern amenities and traditional charm. ",
+            "currency":"Thai baht",
+            "price": 100,
+            "image": "https://images.pexels.com/photos/208444/pexels-photo-208444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Indonesian",
+            "name": "Bali",
+            "desc": "Bali is a beautiful island in Indonesia known for its stunning beaches, lush tropical forests, and vibrant cultural heritage.",
+            "currency":"Indonesian rupiah",
+            "price": 100,
+            "image": "https://images.pexels.com/photos/2480626/pexels-photo-2480626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Filipino",
+            "name": "Philliphes",
+            "desc": "The Philippines is a tropical paradise with stunning natural beauty, a rich cultural heritage, and a friendly and welcoming people.",
+            "currency":" Philippine peso",
+            "price": 909,
+            "image": "https://images.pexels.com/photos/584302/pexels-photo-584302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Japanese",
+            "name": "japan",
+            "desc": "Japan is a technologically advanced nation with a rich cultural heritage, a strong economy, and a unique blend of ancient traditions and modern innovation.",
+            "currency":"Japanese yen",
+            "price": 599,
+            "image": "https://images.pexels.com/photos/1633791/pexels-photo-1633791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "Korean",
+            "name": "korea",
+            "desc": "Korea is a culturally rich nation with a complex history, renowned for its technological advancements, delicious cuisine, and popular entertainment industry.",
+            "currency":"South Korean won",
+            "price": 899,
+            "image": "https://images.pexels.com/photos/2848492/pexels-photo-2848492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        },
+        {
+            "language": "English",
+            "name": "Hong kong",
+            "desc": "Hong Kong is a bustling and cosmopolitan city with a unique blend of Chinese and Western culture, a vibrant economy, and a stunning skyline.",
+            "currency":"Hong Kong dollar",
+            "price": 799,
+            "image": "https://images.pexels.com/photos/2861883/pexels-photo-2861883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+        }
+    ]
+}
